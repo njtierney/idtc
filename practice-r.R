@@ -8,3 +8,7 @@ ggplot(data = iris,
            colour = Species)) + 
   geom_point() + 
   geom_smooth()
+
+library(GGally)
+
+ggpairs(iris)
